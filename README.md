@@ -5,7 +5,7 @@
 📌CREATE(CRIAR)
  
  
-  @Override
+        @Override
 	public void create(Person person) {
 		getList().add(person);
 	}
@@ -14,7 +14,7 @@
 
 📌 READ(CONSULTAR)
 
-  @Override
+        @Override
 	public void read(String searchName) {
 
 		if(getList().isEmpty()){
@@ -44,7 +44,7 @@
 📌 UPDATE(ATUALIZAR)
 
 
-  @Override
+       @Override
 	public void update( String newName, Double newSalary, String oldName) {
 		// se a lista estiver vazia
 		if (getList().isEmpty()) {
@@ -74,7 +74,7 @@
 
 📌 DELETE(DELETAR)
 
-  @Override
+       @Override
 	public void delete( String nameDelete) {
 
 		if (getList().isEmpty()) {
